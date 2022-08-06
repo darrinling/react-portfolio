@@ -23,7 +23,7 @@ function App() {
   const changePage = (page) => setCurrentPage(page);
 
   return (
-    <div className="bg-black">
+    <div>
       <Nav currentPage={currentPage} changePage={changePage} />
       <main>{renderPage()}</main>
       <Footer />
